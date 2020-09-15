@@ -1,0 +1,116 @@
+/* Header */
+.home-image{
+    height: 450px;
+    align-content: center;
+}
+
+.header-background{
+    width: auto;
+    background: rgb(243, 251, 255);
+    /*background: white; */
+}
+
+.welcome-message {
+    display:flex;
+    align-items:left;
+    margin-top: 150px;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 500;
+    color: #9BB96B;
+    margin-bottom: 2px;
+  }
+
+  .welcome-message-mobile {
+    display:flex;
+    align-items:left;
+    margin-top: 20px;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 600;
+    color: #9BB96B;
+    margin-bottom: 10px;
+  }
+
+  .welcome-paragraph{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  /* Dev & Design Container */
+  .white-space{
+      margin-top: 150px;
+  }
+
+  .subheading {
+    display:flex;
+    align-items:left;
+    margin-top: 60px;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 600;
+    color: #9BB96B;
+    margin-bottom: 2px;
+  }
+
+  .dev-des-header {
+    display:flex;
+    align-items:left;
+    margin-top: 30px;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0px;
+  }
+
+  .dev-des-image {
+      height: 100px;
+      opacity: 60%;
+      background-color: rgb(243, 251, 255);
+      margin-top: 30px;
+  }
+
+  .about-paragraph{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+/* Portfolio Page */
+
+.portfolio-image {
+    height: 250px;
+    margin-top: 50px;
+}
+
+.portfolio-header {
+    display:flex;
+    align-items:left;
+    margin-top: 75px;
+    margin-left: 20px;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0px;
+  }
+
+.portfolio-paragraph {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  .portfolio-subheading {
+    display:flex;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 600;
+    color: #9BB96B;
+  }
