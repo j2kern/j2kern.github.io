@@ -76,14 +76,14 @@ function HomePage(props){
             <Row className="justify-content-md-center">
                 <Col sm={9}>
                     <p class="subheading" >A Little More About Me</p>
-                 </Col>
+                </Col>
             </Row>
         </Container>
         <Container >
             <Row className="justify-content-md-center">
                 <Col sm={9}>
                     <p class="about-paragraph">I am a candidate for Bachelor of Science in Biomedical Engineering at the University of Waterloo. I am interested in combining technology, creative thinking and design to improve the future of healthcare. I am always up for a challenge and love to embrace the uncomfortable. Currently seeking an internship co-op position starting January 2021, feel free to reach out and connect!</p>
-                 </Col>
+                </Col>
             </Row>
         </Container>
         {/* Contact Me */}
@@ -91,14 +91,17 @@ function HomePage(props){
             <Row className="justify-content-md-center">
                 <Col sm={9}>
                     <p class="subheading" >Contact</p>
-                 </Col>
+                </Col>
             </Row>
         </Container>
         <Container >
             <Row className="justify-content-md-center">
                 <Col sm={9}>
-                    <p class="about-paragraph">I am a candidate for Bachelor of Science in Biomedical Engineering at the University of Waterloo. I am interested in combining technology, creative thinking and design to improve the future of healthcare. I am always up for a challenge and love to embrace the uncomfortable. Currently seeking an internship co-op position starting January 2021, feel free to reach out and connect!</p>
-                 </Col>
+                    <a href="mailto:j2kern@uwaterloo.ca"><i class="fa fa-envelope contact"></i></a>
+                    <a href="https://github.com/j2kern"><i class="fa fa-github contact"></i></a>
+                    <a href="https://www.linkedin.com/in/julietkern"><i class="fa fa-linkedin contact"></i></a>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+                </Col>
             </Row>
         </Container>
         <br/>

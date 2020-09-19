@@ -6,8 +6,8 @@
 
 .header-background{
     width: auto;
-    background: rgb(243, 251, 255);
-    /*background: white; */
+    background: #F6FBED;
+    /* background: white; */
 }
 
 .welcome-message {
@@ -36,6 +36,21 @@
     font-family: 'Open Sans';
     font-size: 14px;
     margin-top: 0;
+  }
+
+  .contact {
+    text-decoration: none;
+    font-size: 50px !important;
+    color: black;
+    opacity: 15%;
+    padding-right: 30px;
+    padding-top: 15px;
+  }
+
+  button:hover,
+  .contact:hover {
+    /* color: #9BB96B; */
+    opacity: 65%;
   }
 
   /* Dev & Design Container */
@@ -67,8 +82,8 @@
 
   .dev-des-image {
       height: 100px;
-      opacity: 60%;
-      background-color: rgb(243, 251, 255);
+      opacity: 65%;
+      background-color: #F6FBED;
       margin-top: 30px;
   }
 
