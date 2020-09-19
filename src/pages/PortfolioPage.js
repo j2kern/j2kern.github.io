@@ -29,10 +29,10 @@ function PortfolioPage(props){
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col lg="4" md="4">
+                    <Col lg="4">
                     <img class="mx-auto d-block portfolio-image" src="prostorewalk.png"/>
                     </Col>
-                    <Col lg="6" md="5">
+                    <Col lg="6">
                         <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
                         <p class="portfolio-paragraph">Worked alongside a team to develop a heatmap of the Home Depot store departments to visualize trends in sales and pinpoint opportunities for company growth. </p>
                     </Col>
@@ -57,19 +57,19 @@ function PortfolioPage(props){
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col lg="4" md="4">
+                    <Col lg="4">
                     <img class="mx-auto d-block portfolio-image" src="prostorewalk.png"/>
                     </Col>
-                    <Col lg="6" md="5">
+                    <Col lg="6" >
                         <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
                         <p class="portfolio-paragraph">Worked alongside a team to develop a heatmap of the Home Depot store departments to visualize trends in sales and pinpoint opportunities for company growth. </p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col lg="4" md="4">
+                    <Col lg="4" >
                     <img class="mx-auto portfolio-image d-none d-md-block" src="3D-modeling-logo.png"/>
                     </Col>
-                    <Col lg="6" md="5">
+                    <Col lg="6" >
                         <p class="portfolio-header">3D Modeling</p>
                         <p class="portfolio-paragraph">Solidworks</p>
                     </Col>

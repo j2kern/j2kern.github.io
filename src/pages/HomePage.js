@@ -20,7 +20,7 @@ function HomePage(props){
                         <p class="welcome-paragraph d-none d-md-block">I’m a Biomedical Engineering Student with a passion for design and technology.</p>
                     </Col>
                     <Col lg="2" md="4" >
-                        <img class="mx-auto d-block home-image" src="avatar-walking-cropped.png" alt=""/>
+                        <img class="mx-auto d-block home-image " src="avatar-walking-cropped.png" alt=""/>
                     </Col>
                 </Row>
             </Container>
@@ -38,7 +38,7 @@ function HomePage(props){
         <Container >
                 <Row className="justify-content-md-center">
                     <Col sm={9}>
-                    <p class="subheading" > How can I Help?</p>
+                    <p class="subheading " > How can I Help?</p>
                     </Col>
                 </Row>
         </Container>
