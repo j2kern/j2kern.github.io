@@ -25,7 +25,8 @@ function PortfolioPage(props){
                     </Col>
                     <Col lg="6" >
                         <p class="portfolio-header">Canada Technology Website | The Home Depot</p>
-                        <p class="portfolio-paragraph">Designed and developed a map of the head office for Home Depot’s Information technology internal employee website. Designed with Axure, developped with Angular 9 framework. </p>
+                        <p class="portfolio-paragraph">Designed and developed a webpage for Home Depot's internal employee website for the IT department. The page displayed an informational map of the head office, prototyped with Axure and Photoshop, and developed in Angular with an integrated Google Maps API. </p>
+                        <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
@@ -34,7 +35,8 @@ function PortfolioPage(props){
                     </Col>
                     <Col lg="6">
                         <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
-                        <p class="portfolio-paragraph">Worked alongside a team to develop a heatmap of the Home Depot store departments to visualize trends in sales and pinpoint opportunities for company growth. </p>
+                        <p class="portfolio-paragraph">Worked alongside a team to develop a heat map of the Home Depot store departments in Angular to visualize trends in sales and pinpoint opportunities for company growth. Deployed across all of the 182 Canadian Home Depot stores </p>
+                        <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
                 </Row>
         </Container>
@@ -42,36 +44,29 @@ function PortfolioPage(props){
         <Container>
                 <Row className="justify-content-md-center">
                     <Col sm={12}>
-                        <p class="portfolio-subheading mx-auto d-block">Personal Projects</p>
+                        <p class="portfolio-subheading mx-auto d-block">Relevant Projects</p>
                     </Col>
                 </Row>
         </Container>
         <Container >
                 <Row className="justify-content-md-center">
                     <Col lg="4" >
-                    <img class="mx-auto d-block portfolio-image" src="canada_tech.png"/>
+                    <img class="mx-auto d-block portfolio-image" src="memorymaps.png"/>
                     </Col>
                     <Col lg="6" >
-                        <p class="portfolio-header">Canada Technology Website | The Home Depot</p>
-                        <p class="portfolio-paragraph">Designed and developed a map of the head office for Home Depot’s Information technology internal employee website. Designed with Axure, developped with Angular 9 framework. </p>
+                        <p class="portfolio-header">Memory Maps | Waterloo Hackathon</p>
+                        <p class="portfolio-paragraph">Successfully developed the front-end of a website using HTML, CSS, and Google Cloud’s Geolocation API that focuses on preventing people with neurological disorders such as Dementia or Alzheimer’s from getting lost. Collaborated with team members under high-pressure and short time constraint to complete the project efficiently. </p>
+                        <p class="portfolio-paragraph">Jan. 2020</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col lg="4">
-                    <img class="mx-auto d-block portfolio-image" src="prostorewalk.png"/>
+                    <img class="mx-auto d-block portfolio-image" src="miway_bus.png"/>
                     </Col>
                     <Col lg="6" >
-                        <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
-                        <p class="portfolio-paragraph">Worked alongside a team to develop a heatmap of the Home Depot store departments to visualize trends in sales and pinpoint opportunities for company growth. </p>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col lg="4" >
-                    <img class="mx-auto portfolio-image d-none d-md-block" src="3D-modeling-logo.png"/>
-                    </Col>
-                    <Col lg="6" >
-                        <p class="portfolio-header">3D Modeling</p>
-                        <p class="portfolio-paragraph">Solidworks</p>
+                        <p class="portfolio-header">Mi Way City Bus | CAD Assignment</p>
+                        <p class="portfolio-paragraph">Built a 3D scale model of a Mississauga city bus on Solidworks using multiple parts in assembly. </p>
+                        <p class="portfolio-paragraph">Oct. 2019</p>
                     </Col>
                 </Row>
         </Container>

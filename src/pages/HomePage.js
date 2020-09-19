@@ -49,7 +49,7 @@ function HomePage(props){
                     </Col>
                     <Col lg="7" md="6">
                         <p class="dev-des-header">Development</p>
-                        <p class="welcome-paragraph">HTML, CSS, JS, Angular, React, NodeJS, mySQL</p>
+                        <p class="welcome-paragraph">React, Angular, NodeJS, Bootstrap, HTML, CSS, JS, MySQL, C#, C++, Matlab </p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
@@ -58,7 +58,7 @@ function HomePage(props){
                     </Col>
                     <Col lg="7" md="6">
                         <p class="dev-des-header">Design</p>
-                        <p class="welcome-paragraph"> Photoshop, AdobeXD, Axure, Figma</p>
+                        <p class="welcome-paragraph">Photoshop, AdobeXD, Axure, Figma</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
@@ -67,7 +67,7 @@ function HomePage(props){
                     </Col>
                     <Col lg="7" md="6">
                         <p class="dev-des-header">3D Modeling</p>
-                        <p class="welcome-paragraph">Solidworks</p>
+                        <p class="welcome-paragraph">Solidworks, Rapid Prototyping, 3D Printing</p>
                     </Col>
                 </Row>
         </Container>
