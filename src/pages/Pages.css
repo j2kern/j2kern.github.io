@@ -41,8 +41,8 @@
   .contact {
     text-decoration: none;
     font-size: 50px !important;
-    color: black;
-    opacity: 0.15;
+    color: black !important;
+    opacity: 0.15 !important;
     padding-right: 30px;
     padding-top: 15px;
   }
@@ -50,7 +50,7 @@
   button:hover,
   .contact:hover {
     /* color: #9BB96B; */
-    opacity: 0.65;
+    opacity: 0.65 !important;
   }
 
   /* Dev & Design Container */
@@ -76,13 +76,13 @@
     font-family: 'Nunito';
     font-size: 22px;
     font-weight: 500;
-    color: black;
+    color: black ;
     margin-bottom: 0px;
   }
 
   .dev-des-image {
       height: 100px;
-      opacity: 0.65;
+      opacity: 0.65 !important;
       background-color: #F6FBED;
       margin-top: 30px;
   }
