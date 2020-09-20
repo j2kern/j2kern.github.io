@@ -11,12 +11,20 @@ function ResumePage(props){
     
     return(
         <>
-        <p>ResumePage DOC Works!</p>
-        <Document file="2A_Resume.pdf"><Page pageNumber={1}/></Document>
+        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'/>
+        <link href="//fonts.googleapis.com/css?family=Open+Sans"  rel='stylesheet'/>
+        
+        <Container>
+                <Row className="justify-content-md-center">
+                    <Col sm={12}>
+                        <p class="portfolio-subheading mx-auto d-block">Resume</p>
+                    </Col>
+                </Row>
+        </Container>
         <Container >
                 <Row className="justify-content-md-center">
                     <Col sm={9}>
-                        <img class="mx-auto d-block" src="jkern-resume.png" alt=""/>
+                        <Document file="2A_Resume.pdf"><Page pageNumber={1}/></Document>
                     </Col>
                 </Row>
         </Container>
