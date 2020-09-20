@@ -13,7 +13,7 @@ function ResumePage(props){
         <>
         <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'/>
         <link href="//fonts.googleapis.com/css?family=Open+Sans"  rel='stylesheet'/>
-        
+
         <Container>
                 <Row className="justify-content-md-center">
                     <Col sm={12}>
@@ -24,7 +24,9 @@ function ResumePage(props){
         <Container >
                 <Row className="justify-content-md-center">
                     <Col sm={9}>
+                        <div class="resume-pdf">
                         <Document file="2A_Resume.pdf"><Page pageNumber={1}/></Document>
+                        </div>
                     </Col>
                 </Row>
         </Container>

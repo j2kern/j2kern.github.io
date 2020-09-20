@@ -129,3 +129,11 @@
     font-weight: 600;
     color: #9BB96B;
   }
+
+  /* Resume Page */
+
+  .resume-pdf{
+    text-align: center;
+    margin-top: 80px;
+    width: 500px;
+  }
