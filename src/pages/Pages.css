@@ -136,4 +136,5 @@
     align-content: center;
     margin-top: 80px;
     width: 600px;
+    box-shadow: 20px 20px 50px grey;  
   }
