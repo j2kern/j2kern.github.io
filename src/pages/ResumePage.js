@@ -1,14 +1,20 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Document, Page, pdfjs } from "react-pdf";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ReactGa from 'react-ga';
 import './Pages.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function ResumePage(props){
-    
+    useEffect(() => {
+        ReactGa.initialize('UA-157274032-2');
+  
+        //pageview
+        ReactGa.pageview(window.location.pathname + window.location.search)
+      }, [])
     return(
         <>
         <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'/>

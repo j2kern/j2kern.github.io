@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ReactGa from 'react-ga';
 
 import './Pages.css';
 
 function HomePage(props){
+    useEffect(() => {
+        ReactGa.initialize('UA-157274032-2');
+  
+        //pageview
+        ReactGa.pageview(window.location.pathname + window.location.search)
+      }, [])
     return(
         <>
         <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'/>

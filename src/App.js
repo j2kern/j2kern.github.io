@@ -1,9 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import{BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import ReactGa from 'react-ga';
 import './App.css';
 
 import Footer from './components/Footer';
@@ -38,7 +37,6 @@ class App extends React.Component {
   }
 
   render(){
-
     return (
       <Router>
         <Container className="p-0" fluid={true}>
@@ -63,12 +61,6 @@ class App extends React.Component {
         </Container>
       </Router>
     );
-    useEffect(() => {
-      ReactGa.initialize('UA-157274032-2');
-
-      //pageview
-      ReactGa.pageview(window.location.pathname + window.location.search)
-    }, [])
   }
 }
 
