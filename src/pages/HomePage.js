@@ -56,7 +56,7 @@ function HomePage(props){
                     </Col>
                     <Col lg="7" md="6">
                         <p class="dev-des-header">Development</p>
-                        <p class="welcome-paragraph">React, Angular, NodeJS, Bootstrap, HTML, CSS, JS, MySQL, C#, C++, Matlab </p>
+                        <p class="welcome-paragraph">React, Angular, NodeJS, Bootstrap, HTML, CSS, JavaScript, C#, C++, Matlab, Google Analytics</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
