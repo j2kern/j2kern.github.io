@@ -12,6 +12,7 @@ import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 
 class App extends React.Component {
+  
 
   constructor(props){
     super(props);
@@ -38,13 +39,6 @@ class App extends React.Component {
 
   render(){
 
-    useEffect(() => {
-      ReactGa.initialize('UA-157274032-2');
-
-      //pageview
-      ReactGa.pageview(window.location.pathname)
-    }, [])
-
     return (
       <Router>
         <Container className="p-0" fluid={true}>
@@ -69,6 +63,12 @@ class App extends React.Component {
         </Container>
       </Router>
     );
+    useEffect(() => {
+      ReactGa.initialize('UA-157274032-2');
+
+      //pageview
+      ReactGa.pageview(window.location.pathname + window.location.search)
+    }, [])
   }
 }
 

@@ -23,7 +23,7 @@ function ResumePage(props){
         </Container>
         <Container >
                 <Row className="justify-content-md-center">
-                    <Col sm={3}>
+                    <Col sm={8}>
                         <div class="resume-pdf">
                             <Document file="julietkern-resume.pdf"><Page pageNumber={1}/></Document>
                         </div>

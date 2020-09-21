@@ -133,9 +133,8 @@
   /* Resume Page */
 
   .resume-pdf{
-    align-content: center;
     text-align: center;
     margin-top: 80px;
-    width: 600px;
+    width: 100%;
     box-shadow: 20px 20px 50px grey;  
   }
