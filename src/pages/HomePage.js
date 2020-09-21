@@ -57,7 +57,7 @@ function HomePage(props){
                     <img class="mx-auto dev-des-image d-none d-md-block" src="design-logo.png" alt=""/>
                     </Col>
                     <Col lg="7" md="6">
-                        <p class="dev-des-header">Design</p>
+                        <p class="dev-des-header">UI/UX Design</p>
                         <p class="welcome-paragraph">Photoshop, AdobeXD, Axure, Figma</p>
                     </Col>
                 </Row>

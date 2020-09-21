@@ -23,9 +23,9 @@ function ResumePage(props){
         </Container>
         <Container >
                 <Row className="justify-content-md-center">
-                    <Col sm={9}>
+                    <Col sm={3}>
                         <div class="resume-pdf">
-                            <Document file="resume.pdf"><Page pageNumber={1}/></Document>
+                            <Document file="julietkern-resume.pdf"><Page pageNumber={1}/></Document>
                         </div>
                     </Col>
                 </Row>
