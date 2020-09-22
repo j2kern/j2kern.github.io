@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d3759ad0ede033f9cc48bd731c5338f",
+    "revision": "46a8337cd2185c1ac1c6be4ad7c541be",
     "url": "/j2kern.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/j2kern.github.io/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "64ec1969eaa482941c8a",
+    "revision": "f234e4a3bfd0293ed7a0",
     "url": "/j2kern.github.io/static/css/main.3d667b5e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/j2kern.github.io/static/js/2.c03964f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64ec1969eaa482941c8a",
-    "url": "/j2kern.github.io/static/js/main.10fa0c7d.chunk.js"
+    "revision": "f234e4a3bfd0293ed7a0",
+    "url": "/j2kern.github.io/static/js/main.fd8ea3fd.chunk.js"
   },
   {
     "revision": "d513fa79ddf791755e05",
