@@ -65,7 +65,7 @@ function HomePage(props){
                     </Col>
                     <Col lg="7" md="6">
                         <p class="dev-des-header">UI/UX Design</p>
-                        <p class="welcome-paragraph">Photoshop, AdobeXD, Axure, Figma</p>
+                        <p class="welcome-paragraph">Photoshop, AdobeXD, Axure, Figma, User Research and Testing</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
