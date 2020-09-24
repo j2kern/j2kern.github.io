@@ -77,11 +77,6 @@ function PortfolioPage(props){
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col lg="10">
-                    <img class="mx-auto d-block portfolio-image-wide" src="biotron_armpieces.png"/>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
                     <Col lg="4">
                     <img class="mx-auto d-block portfolio-image" src="biotron_logo.png"/>
                     </Col>
@@ -97,6 +92,11 @@ function PortfolioPage(props){
         maximize productivity and ensure group stays focused to complete the
         project by the desired deadline.</p>
                         <p class="portfolio-paragraph">Jan. 2020 - Apr. 2020</p>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col lg="10">
+                    <img class="mx-auto d-block portfolio-image-wide" src="biotron_armpieces.png"/>
                     </Col>
                 </Row>
         </Container>
