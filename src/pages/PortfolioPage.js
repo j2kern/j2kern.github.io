@@ -28,7 +28,7 @@ function PortfolioPage(props){
         <Container >
                 <Row className="justify-content-md-center">
                     <Col lg="4" >
-                    <img class="mx-auto d-block portfolio-image" src="canada_tech.png"/>
+                    <img class="mx-auto d-block portfolio-image" src="canada_tech_dropshadow.png"/>
                     </Col>
                     <Col lg="6" >
                         <p class="portfolio-header">Canada Technology Website | The Home Depot</p>
@@ -38,11 +38,11 @@ function PortfolioPage(props){
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col lg="4">
-                    <img class="mx-auto d-block portfolio-image" src="prostorewalk.png"/>
+                    <img class="mx-auto d-block portfolio-image" src="prostorewalk_dropshadow.png"/>
                     </Col>
                     <Col lg="6">
                         <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
-                        <p class="portfolio-paragraph">Worked alongside a team to develop a heat map of the Home Depot store departments in Angular to visualize trends in sales and pinpoint opportunities for company growth. Deployed across all of the 182 Canadian Home Depot stores </p>
+                        <p class="portfolio-paragraph">Worked alongside a team to develop a heat map of the Home Depot store departments in Angular to visualize trends in sales and pinpoint opportunities for company growth. Deployed across all of the 182 Canadian Home Depot stores.</p>
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
                 </Row>
@@ -58,7 +58,7 @@ function PortfolioPage(props){
         <Container >
                 <Row className="justify-content-md-center">
                     <Col lg="4" >
-                    <img class="mx-auto d-block portfolio-image" src="memorymaps.png"/>
+                    <img class="mx-auto d-block portfolio-image" src="memorymaps_dropshadow.png"/>
                     </Col>
                     <Col lg="6" >
                         <p class="portfolio-header">Memory Maps | Waterloo Hackathon</p>
@@ -74,6 +74,29 @@ function PortfolioPage(props){
                         <p class="portfolio-header">Mi Way City Bus | CAD Assignment</p>
                         <p class="portfolio-paragraph">Built a 3D scale model of a Mississauga city bus on Solidworks using multiple parts in assembly. </p>
                         <p class="portfolio-paragraph">Oct. 2019</p>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col lg="10">
+                    <img class="mx-auto d-block portfolio-image-wide" src="biotron_armpieces.png"/>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col lg="4">
+                    <img class="mx-auto d-block portfolio-image" src="biotron_logo.png"/>
+                    </Col>
+                    <Col lg="6" >
+                        <p class="portfolio-header">Biomechatronics Design Team | CAD Assignment</p>
+                        <p class="portfolio-paragraph">Team Lead of Daniel's Arm project. The prosthetic is for a
+        double amputee in El Salvador in need of a device. It is made of 3D
+        printed material and the grip is mechanized to add an additional degree
+        of freedom. The prosthetic is powered by rechargeable batteries,
+        controlled by a programmed Arduino and connected to a linear actuator to
+        allow for the gripping and extension of the fingers. As the Team Lead,
+        the responsibilities include organizing club members and timelines to
+        maximize productivity and ensure group stays focused to complete the
+        project by the desired deadline.</p>
+                        <p class="portfolio-paragraph">Jan. 2020 - Apr. 2020</p>
                     </Col>
                 </Row>
         </Container>
