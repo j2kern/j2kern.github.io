@@ -50,7 +50,7 @@ function PortfolioPage(props){
                     <Col lg="3" >
                         <img class="mx-auto d-block portfolio-image" src="option1.png"/>
                     </Col>
-                    <Col lg="3" >
+                    <Col lg="4" >
                         <img class="mx-auto d-block portfolio-image" src="option2.png"/>
                     </Col>
                     <Col lg="3" >
@@ -58,7 +58,7 @@ function PortfolioPage(props){
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col lg="9" >
+                    <Col lg="10" >
                         <p class="portfolio-paragraph">Worked on developping the Home Depot Canada Technology Brand. This included staying true to the home depot brand, while incorporating canada into the brand. </p>
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
