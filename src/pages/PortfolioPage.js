@@ -28,7 +28,7 @@ function PortfolioPage(props){
         <Container >
                 <Row className="justify-content-md-center">
                     <Col lg="4">
-                    <img class="mx-auto d-block portfolio-image" src="homedepot_dropshadow.png"/>
+                    <img class="mx-auto d-block portfolio-image" src="prostorewalk_dropshadow_blur.png"/>
                     </Col>
                     <Col lg="6">
                         <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
@@ -46,7 +46,7 @@ function PortfolioPage(props){
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center">
+                {/* <Row className="justify-content-md-center">
                     <Col lg="3" >
                         <img class="mx-auto d-block portfolio-image" src="option1.png"/>
                     </Col>
@@ -59,15 +59,15 @@ function PortfolioPage(props){
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col lg="10" >
-                        <p class="portfolio-paragraph">Worked on developping the Home Depot Canada Technology Brand. This included staying true to the home depot brand, while incorporating canada into the brand. </p>
+                        <p class="portfolio-paragraph">Experimenting with colour, position and values while staying within a specific theme and keeping to the true home depot brand is an important  </p>
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
-                </Row>
+                </Row> */}
         </Container>
 
         <Container>
                 <Row className="justify-content-md-center">
-                    <Col sm={12}>
+                    <Col sm={12}> 
                         <p class="portfolio-subheading mx-auto d-block">Projects</p>
                     </Col>
                 </Row>
