@@ -28,7 +28,7 @@ function PortfolioPage(props){
         <Container >
                 <Row className="justify-content-md-center">
                     <Col lg="4">
-                    <img class="mx-auto d-block portfolio-image" src="prostorewalk_dropshadow_blur.png"/>
+                    <img class="mx-auto d-block portfolio-image" src="homedepot_dropshadow.png"/>
                     </Col>
                     <Col lg="6">
                         <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
