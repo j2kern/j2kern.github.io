@@ -27,22 +27,39 @@ function PortfolioPage(props){
         </Container>
         <Container >
                 <Row className="justify-content-md-center">
+                    <Col lg="4">
+                    <img class="mx-auto d-block portfolio-image" src="prostorewalk_dropshadow_blur.png"/>
+                    </Col>
+                    <Col lg="6">
+                        <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
+                        <p class="portfolio-paragraph">Worked alongside a team to develop a heat map of the Home Depot store departments in Angular to visualize trends in sales and pinpoint opportunities for company growth. Deployed across all of the 182 Canadian Home Depot stores. Since these Home Depot projects aren't a part of Home Depot's public initiatives, I can't discuss it in much detail so if you're interested, feel free to reach out with an email j2kern@uwaterloo.ca!</p>
+                        <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
                     <Col lg="4" >
                     <img class="mx-auto d-block portfolio-image" src="canada_tech_dropshadow.png"/>
                     </Col>
                     <Col lg="6" >
-                        <p class="portfolio-header">Canada Technology Website | The Home Depot</p>
+                        <p class="portfolio-header">Canada Technology Website & Brand | The Home Depot</p>
                         <p class="portfolio-paragraph">Designed and developed a webpage for Home Depot's internal employee website for the IT department. The page displayed an informational map of the head office, prototyped with Axure and Photoshop, and developed in Angular with an integrated Google Maps API. </p>
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col lg="4">
-                    <img class="mx-auto d-block portfolio-image" src="prostorewalk_dropshadow.png"/>
+                    <Col lg="3" >
+                        <img class="mx-auto d-block portfolio-image" src="option1.png"/>
                     </Col>
-                    <Col lg="6">
-                        <p class="portfolio-header">Pro Store Walk Portal | The Home Depot</p>
-                        <p class="portfolio-paragraph">Worked alongside a team to develop a heat map of the Home Depot store departments in Angular to visualize trends in sales and pinpoint opportunities for company growth. Deployed across all of the 182 Canadian Home Depot stores.</p>
+                    <Col lg="3" >
+                        <img class="mx-auto d-block portfolio-image" src="option2.png"/>
+                    </Col>
+                    <Col lg="3" >
+                        <img class="mx-auto d-block portfolio-image" src="option3.png"/>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col lg="9" >
+                        <p class="portfolio-paragraph">Worked on developping the Home Depot Canada Technology Brand. This included staying true to the home depot brand, while incorporating canada into the brand. </p>
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
                 </Row>
@@ -51,7 +68,7 @@ function PortfolioPage(props){
         <Container>
                 <Row className="justify-content-md-center">
                     <Col sm={12}>
-                        <p class="portfolio-subheading mx-auto d-block">Relevant Projects</p>
+                        <p class="portfolio-subheading mx-auto d-block">Projects</p>
                     </Col>
                 </Row>
         </Container>
@@ -96,7 +113,7 @@ function PortfolioPage(props){
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col lg="10">
-                    <img class="mx-auto d-block portfolio-image-wide" src="biotron_armpieces.png"/>
+                    <img class="mx-auto d-none d-md-block portfolio-image-wide" src="biotron_armpieces.png"/>
                     </Col>
                 </Row>
         </Container>
