@@ -42,7 +42,7 @@ function PortfolioPage(props){
                     </Col>
                     <Col lg="6" >
                         <p class="portfolio-header">Canada Technology Website & Brand | The Home Depot</p>
-                        <p class="portfolio-paragraph">Designed and developed a webpage for Home Depot's internal employee website for the IT department. The page displayed an informational map of the head office, prototyped with Axure and Photoshop, and developed in Angular with an integrated Google Maps API. </p>
+                        <p class="portfolio-paragraph">Designed and developed a webpage for Home Depot's internal employee website for the IT department. The page displayed an informational map of the head office, prototyped with Axure and Photoshop, and developed in Angular with an integrated Google Maps API. The webpage image on the left was a prototype I presented to the team as an option, the logo is currently in use by the Home Depot Canada IT department.</p>
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
                 </Row>
