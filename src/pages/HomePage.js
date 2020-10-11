@@ -22,10 +22,10 @@ function HomePage(props){
         <div className="header-background">
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col lg="5" md="5">
+                    {/* <Col lg="5" md="5">
                         <p class="welcome-message d-none d-md-block">Hi, I'm Juliet.</p>
                         <p class="welcome-paragraph d-none d-md-block">I’m a Biomedical Engineering Student with a passion for design and technology.</p>
-                    </Col>
+                    </Col> */}
                     <Col lg="2" md="4" >
                         <img class="mx-auto d-block home-image " src="med-tech-shadows.png" alt=""/>
                     </Col>

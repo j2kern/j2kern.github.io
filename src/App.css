@@ -37,22 +37,17 @@
   }
 }
 
-.top-nav{
-  margin: 20px 200px 20px 0px;
-}
-
-.top-name{
-  margin: 20px 0px 20px 200px;
-}
-
 .header-background{
   width: auto;
-  background: #EBF6FD;
 }
 
 .juliet-kern {
   font-family: 'Nunito'!important;
   font-size: 22px!important;
-  font-weight: 540!important;
+  font-weight: 600!important;
   color:#9BB96B!important;
+}
+
+.Container{
+  width: 9 !important;
 }

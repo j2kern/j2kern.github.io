@@ -3,6 +3,8 @@ import{BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './App.css';
 
 import Footer from './components/Footer';
@@ -39,26 +41,30 @@ class App extends React.Component {
   render(){
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
           <Container>
-            <Navbar bg="transparent header-background" expand="lg" >
-              <Navbar.Brand className="juliet-kern">Juliet Kern</Navbar.Brand>
-              <Navbar.Toggle className="border-0" aria-control="navbar-toggle" />
-              <Navbar.Collapse id="navbar-toggle">
-                <Nav className="ml-auto">
-                  <Link className="nav-link" to="/">Home</Link>
-                  <Link className="nav-link" to="/portfolio">Portfolio</Link>
-                  <Link className="nav-link" to="/resume">Resume</Link>
-                </Nav>
-              </Navbar.Collapse>
-            </Navbar>
+            <Container> 
+              <Row className="justify-content-md-center">
+                <Col sm="11" lg="9">
+                  <Navbar bg="transparent header-background" expand="lg" >
+                      <Navbar.Brand className="juliet-kern">Juliet Kern</Navbar.Brand>
+                      <Navbar.Toggle className="border-0" aria-control="navbar-toggle" />
+                    <Navbar.Collapse id="navbar-toggle">
+                      <Nav className="ml-auto">
+                        <Link className="nav-link" to="/">Home</Link>
+                        <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                        <Link className="nav-link" to="/resume">Resume</Link>
+                      </Nav>
+                    </Navbar.Collapse>
+                  </Navbar>
+                </Col>
+              </Row>
+            </Container>
 
             <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
             <Route path="/portfolio" render={() => <PortfolioPage title={this.state.home.title} />} />
             <Route path="/resume" render={() => <ResumePage title={this.state.home.title} />} />
             <Footer/>
          </Container>
-        </Container>
       </Router>
     );
   }

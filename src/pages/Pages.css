@@ -6,8 +6,8 @@
 
 .header-background{
     width: auto;
-    background: #F6FBED;
-    /* background: white; */
+    /* background: #F6FBED; */
+    background: white; 
 }
 
 .welcome-message {
