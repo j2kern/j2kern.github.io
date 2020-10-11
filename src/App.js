@@ -44,7 +44,7 @@ class App extends React.Component {
           <Container>
             <Container> 
               <Row className="justify-content-md-center">
-                <Col sm="11" lg="9">
+                <Col sm="11" lg="10">
                   <Navbar bg="transparent header-background" expand="lg" >
                       <Navbar.Brand className="juliet-kern">Juliet Kern</Navbar.Brand>
                       <Navbar.Toggle className="border-0" aria-control="navbar-toggle" />

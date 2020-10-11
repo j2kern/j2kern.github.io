@@ -26,7 +26,7 @@ function PortfolioPage(props){
                 </Row>
         </Container>
         <Container >
-                <Row className="justify-content-md-center">
+                {/* <Row className="justify-content-md-center">
                     <Col lg="4">
                     <img class="mx-auto d-block portfolio-image" src="prostorewalk_dropshadow_blur.png"/>
                     </Col>
@@ -35,7 +35,7 @@ function PortfolioPage(props){
                         <p class="portfolio-paragraph">Worked alongside a team to develop a heat map of the Home Depot store departments in Angular to visualize trends in sales and pinpoint opportunities for company growth. Deployed across all of the 182 Canadian Home Depot stores. Since these Home Depot projects aren't a part of Home Depot's public initiatives, I can't discuss it in much detail so if you're interested, feel free to reach out with an email j2kern@uwaterloo.ca!</p>
                         <p class="portfolio-paragraph">May 2020 - Aug. 2020</p>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row className="justify-content-md-center">
                     <Col lg="4" >
                     <img class="mx-auto d-block portfolio-image" src="canada_tech_dropshadow.png"/>
